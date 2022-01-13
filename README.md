@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <!--
-**trinamntn08/trinamntn08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**trinamntn08/portfolio is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
