@@ -211,7 +211,24 @@
         </div>
       </div>
     </section><!-- End Services Section -->
-	
+    
+    <style>
+      .work-img {
+        width: 100%; /* Ensure images take full width of the container */
+        height: 250px; /* Set a fixed height */
+        background-color: #ffffff; /* Optional: Adds a light grey background to make the GIF visible */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Ensures no overflow if an image is larger */
+      }
+    
+      .work-img img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover; /* Makes sure images fill the container while maintaining aspect ratio */
+      }
+    </style>
     <!-- ======= Portfolio Section ======= -->
     <section id="work" class="portfolio-mf sect-pt4 route">
       <div class="container">
@@ -247,18 +264,18 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="assets/img/radar720.gif" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work2.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/radar720.gif" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">People Counting System</h2>
-					<br/> 
+                    <h2 class="w-title">Radar Visualizer</h2>
+					    <br/> 
                     <div class="w-more">
-                      <span class="w-ctegory">Python, Computer Vision</span>
+                      <span class="w-ctegory">C++, OpenGL, UDP Protocols</span>
                     </div>
                   </div>
                 </div>
@@ -267,17 +284,18 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+              <a href="assets/img/appClinic.gif" data-gallery="portfolioGallery" class="portfolio-lightbox">
                 <div class="work-img">
-                  <img src="assets/img/work3.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/appClinic.gif" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div class="col-sm-8">
-                    <h2 class="w-title">Real-time Background Replacement</h2>
+                    <h2 class="w-title">Clinic Management</h2>
+                    <br/> 
                     <div class="w-more">
-                      <span class="w-ctegory">OpenCV, Mask_RCNN</span> 
+                      <span class="w-ctegory">PhP, MySql</span> 
                     </div>
                   </div>
                 </div>
